@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Chen - Portfolio</title>
+    <title>muhammad naufal ardhi zaidan - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -184,7 +184,7 @@
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
                 <div class="text-2xl font-display font-bold gradient-text">
-                    Alexander Chen
+                    muhammad naufal ardhi zaidan
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="hover:text-luxury-gold transition-colors">Home</a>
