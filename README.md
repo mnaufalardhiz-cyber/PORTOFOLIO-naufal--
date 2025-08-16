@@ -222,7 +222,7 @@
         <div class="container mx-auto px-6 text-center relative z-10">
             <div class="animate-fadeInUp">
                 <h1 class="text-5xl md:text-7xl font-display font-bold mb-6">
-                    <span class="gradient-text"muhammad naufal ardhi zaidan</span>
+                    <span class="gradient-text"muhammad naufal ardhi zaidan"</span>
                 </h1>
                 <div class="text-xl md:text-2xl mb-8 text-gray-300">
                     <span id="typing-text" class="typing-animation"></span>
