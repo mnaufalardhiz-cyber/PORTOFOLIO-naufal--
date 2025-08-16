@@ -222,7 +222,7 @@
         <div class="container mx-auto px-6 text-center relative z-10">
             <div class="animate-fadeInUp">
                 <h1 class="text-5xl md:text-7xl font-display font-bold mb-6">
-                    <span class="gradient-text">Alexander Chen</span>
+                    <span class="gradient-text"muhammad naufal ardhi zaidan</span>
                 </h1>
                 <div class="text-xl md:text-2xl mb-8 text-gray-300">
                     <span id="typing-text" class="typing-animation"></span>
@@ -730,7 +730,7 @@
     <footer class="py-8 bg-luxury-dark border-t border-gray-800">
         <div class="container mx-auto px-6 text-center">
             <p class="text-gray-400">
-                © 2024 Alexander Chen. All rights reserved. Crafted with passion and precision.
+                © 2025 MUHAMMAD NMAUFAL. All rights reserved. Crafted with passion and precision.
             </p>
         </div>
     </footer>
