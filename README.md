@@ -177,9 +177,9 @@
       <h2>Kontak</h2>
       <p>Siap dipanggil interview. Silakan hubungi melalui:</p>
       <ul>
-        <li><strong>WhatsApp:</strong> 08xx-xxxx-xxxx</li>
-        <li><strong>Email:</strong> naufal@example.com</li>
-        <li><strong>Instagram/Portofolio:</strong> @naufal.design (opsional)</li>
+        <li><strong>WhatsApp:</strong> 089508293502</li>
+        <li><strong>Email:</strong> m.naufalardhiz@gmail.com</li>
+        <li><strong>Instagram/Portofolio:</strong> @hansi_fal (opsional)</li>
       </ul>
     </section>
 
