@@ -178,7 +178,7 @@
       <ul>
         <li><strong>WhatsApp:</strong> 089508293502</li>
         <li><strong>Email:</strong> m.naufalardhiz@gmail.com</li>
-        <li><strong>Instagram/Portofolio:</strong> @hansi_fal (opsional)</li>
+        <li><strong>Instagram/Portofolio:</strong> @hansi_fal </li>
       </ul>
     </section>
 
