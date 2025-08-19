@@ -97,7 +97,7 @@
         <ul class="timeline">
           <li>
             <h3>Crew Store (Retail Minimarket)</h3>
-            <div class="muted">2023 – 2025</div>
+            <div class="muted">2024 – 2025</div>
             <p>Menangani transaksi di kasir, memastikan akurasi uang masuk/keluar, rekap harian, serta pelayanan pelanggan yang ramah. Melakukan penataan display, FIFO/FEFO, cek tanggal kedaluwarsa, dan stock opname berkala.</p>
             <div>
               <span class="pill">Pelayanan Pelanggan</span>
