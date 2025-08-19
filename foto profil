@@ -1,0 +1,85 @@
+# Create an HTML file that displays a single image centered on the page.
+# Also package the HTML with the image into a ZIP for easy download.
+
+import base64, os, zipfile, shutil, pathlib
+
+# Source image path (provided by system)
+src_path = "/mnt/data/ChatGPT Image 19 Agu 2025, 23.40.53.png"
+
+# Working directory
+out_dir = "/mnt/data/single-photo-page"
+os.makedirs(out_dir, exist_ok=True)
+
+# Copy image with a simple name
+img_name = "foto.png"
+dst_img_path = os.path.join(out_dir, img_name)
+shutil.copyfile(src_path, dst_img_path)
+
+# Build HTML content
+html_content = """<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foto</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      background: #0b0b0b;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    .frame {
+      padding: clamp(8px, 2vw, 16px);
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+      max-width: min(92vw, 640px);
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      opacity: .6;
+      margin-top: 8px;
+      color: #000;
+    }
+    @media (prefers-color-scheme: dark) {
+      .frame { background: #111; }
+      footer { color: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <main class="frame">
+    <img src="./foto.png" alt="Foto formal">
+    <footer>© Foto</footer>
+  </main>
+</body>
+</html>
+"""
+
+html_path = os.path.join(out_dir, "index.html")
+with open(html_path, "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+# Zip the folder
+zip_path = "/mnt/data/single-photo-page.zip"
+with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+    for root, _, files in os.walk(out_dir):
+        for file in files:
+            full_path = os.path.join(root, file)
+            arcname = os.path.relpath(full_path, out_dir)
+            zf.write(full_path, arcname)
+
+zip_path, html_path, dst_img_path
