@@ -156,7 +156,7 @@
     <div class="container">
         <header>
             <h1>Muhammad Naufal Ardhi Zaidan</h1>
-            <p>Portofolio Profesional</p>
+            <p>crew store</p>
         </header>
         
         <section id="tentang-saya">
