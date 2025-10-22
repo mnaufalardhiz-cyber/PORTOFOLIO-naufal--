@@ -1,95 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Kerja - Naufal Ardhiz</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-        body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            animation: fadeIn 1s ease-in;
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-            margin-bottom: 20px;
-            font-size: 2.5em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        h2 {
-            color: #34495e;
-            margin-bottom: 10px;
-            font-size: 1.5em;
-        }
-        .section {
-            margin-bottom: 25px;
-        }
-        ul {
-            list-style: none;
-        }
-        ul li {
-            padding: 10px;
-            background: #ecf0f1;
-            margin: 5px 0;
-            border-radius: 5px;
-            transition: transform 0.3s ease;
-        }
-        ul li:hover {
-            transform: translateX(10px);
-            background: #dcdde1;
-        }
-        .contact {
-            text-align: center;
-            padding: 20px;
-            background: #3498db;
-            color: #fff;
-            border-radius: 10px;
-        }
-        .contact p {
-            margin: 5px 0;
-            font-size: 1.1em;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .profile img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 4px solid #007bff;
+    }
+
+    .profile-info h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .profile-info p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    h2 {
+      margin-top: 30px;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      margin-top: 10px;
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    .contact {
+      margin-top: 30px;
+      padding: 15px;
+      background: #007bff;
+      color: #fff;
+      border-radius: 8px;
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Portofolio Kerja - Naufal Ardhiz</h1>
-
-        <div class="section">
-            <h2>Pengalaman Kerja</h2>
-            <ul>
-                <li><strong>Kasir</strong> - 2024 - 2025</li>
-                <li><strong>Electrical</strong> - Mei 2023 - November 2023</li>
-            </ul>
-        </div>
-
-        <div class="section contact">
-            <h2>Kontak</h2>
-            <p>Telepon: 089508293502</p>
-            <p>Email: m.naufalardhiz@gmail.com</p>
-        </div>
+  <div class="container">
+    <div class="profile">
+      <img src="Gambar WhatsApp 2025-10-23 pukul 00.14.58_48519364.jpg" alt="Foto Profil">
+      <div class="profile-info">
+        <h1>Nama Lengkap Anda</h1>
+        <p>Calon profesional yang bersemangat dan berorientasi pada detail, siap memberikan kontribusi terbaik dalam tim Anda.</p>
+      </div>
     </div>
-</body>
-</html>
+
+    <h2>Keterampilan</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js & Node.js</li>
+      <li>UI/UX Design (Figma, Adobe XD)</li>
+      <li
