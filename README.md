@@ -131,11 +131,7 @@
 <body>
     <div class="container">
         <header>
-            <!-- Foto Profil -->
-            <img 
-                src=""C:\Users\ASUS\Downloads\Gambar WhatsApp 2025-10-23 pukul 00.14.58_48519364.jpg"" 
-                alt="Foto Profil Muhammad Naufal Ardhi Zaidan" 
-                class="profile-img"
+            
             />
             <h1>Muhammad Naufal Ardhi Zaidan</h1>
             <p>Marketing & Programmer Profesional</p>
