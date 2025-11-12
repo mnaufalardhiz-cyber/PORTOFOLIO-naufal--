@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
     <meta charset="UTF-8" />
@@ -163,7 +163,7 @@
                 <li><strong>Sarjana Teknik elektro</strong> - smkn 7 kota bekasi (2021-2024)</li>
                 
             <ul>
-        </section>
+        
 
         <section id="keahlian">
             <h2>Keahlian</h2>
