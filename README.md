@@ -1,195 +1,136 @@
-
+          <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portofolio Muhammad Naufal Ardhi Zaidan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Kerja - [muhammad naufal ardhi zaidan]</title>
     <style>
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Latar belakang gradien yang bagus */
+            color: #fff;
             line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.91);
-            border-radius: 15px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
         }
         header {
             text-align: center;
-            margin-bottom: 40px;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.5);
         }
         header h1 {
-            font-size: 2.8em;
-            margin: 15px 0 5px 0;
-            color: #2c3e50;
-            font-weight: 700;
+            margin: 0;
+            font-size: 2.5em;
         }
         header p {
-            font-size: 1.3em;
-            color: #7f8c8d;
-            margin: 0;
-            font-style: italic;
-        }
-        .profile-img {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid #3498db;
-            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
-            margin: 0 auto;
-            display: block;
+            font-size: 1.2em;
+            margin: 10px 0;
         }
         section {
-            margin-bottom: 30px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
-        section h2 {
-            font-size: 1.9em;
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 8px;
-            margin-bottom: 18px;
+        h2 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
         }
         ul {
-            list-style: none;
-            padding-left: 0;
+            list-style-type: none;
+            padding: 0;
         }
         ul li {
-            font-size: 1.1em;
-            padding: 6px 0;
-            border-bottom: 1px solid #dfe6e9;
-        }
-        ul li:last-child {
-            border-bottom: none;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-        .skill {
-            background: #2980b9;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 30px;
-            font-weight: 600;
-            font-size: 1em;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-            transition: background 0.3s ease;
-        }
-        .skill:hover {
-            background: #3498db;
-        }
-        .contact {
-            text-align: center;
-        }
-        .contact a {
-            display: inline-block;
-            margin: 10px 15px;
-            padding: 15px 30px;
-            background-color: #27ae60;
-            color: white;
-            font-size: 1.2em;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 700;
-            box-shadow: 0 4px 12px rgba(39, 174, 96, 0.5);
-            transition: background-color 0.3s ease;
-        }
-        .contact a:hover {
-            background-color: #2ecc71;
+            margin: 10px 0;
         }
         footer {
             text-align: center;
-            padding: 18px 0;
-            background: #34495e;
-            color: white;
-            font-size: 0.95em;
-            border-radius: 0 0 15px 15px;
-            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
         }
-        /* Responsive */
-        @media (max-width: 480px) {
-            .skill {
-                font-size: 0.9em;
-                padding: 8px 15px;
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
             }
-            .contact a {
-                font-size: 1em;
-                padding: 12px 25px;
+            section {
+                margin: 10px;
+                padding: 15px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <h1>[muhammad naufal ardhi zaidan]</h1>
+        <p>pelayanan & pemasaran</p>
+    </header>
+
+    <section id="data-pribadi">
+        <h2>Data Pribadi</h2>
+        <p><strong>Nama:</strong> [muhammad naufal ardhi zaidan]</p>
+        <p><strong>Tempat/Tanggal Lahir:</strong> [bekasi, 07/08/2006]</p>
+        <p><strong>Alamat:</strong> [jl swadaya no 16 b rt 010/rw 008 kec pondok gede kel jatimakmur kota bekasi]</p>
+        <p><strong>Status:</strong> [belum menikah]</p>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <ul>
+            <li><strong>Email:</strong> [m.naufalardhiz@gmail.com]</li>
+            <li><strong>Telepon:</strong> [08972317715]</li>
+            <li><strong>LinkedIn:</strong> <a href="[https://www.linkedin.com/in/muhammad-n-8bb292309]" target="_blank" style="color: #fff;">[Nama Profil LinkedIn]</a></li>
+            <li><strong>GitHub:</strong> <a href="[https://mnaufalardhiz-cyber.github.io/PORTOFOLIO-naufal--/]" target="_blank" style="color: #fff;">[Nama Profil GitHub]</a></li>
+        </ul>
+    </section>
+
+    <section id="pendidikan">
+        <h2>Pendidikan</h2>
+        <ul>
+            <li><strong>[2021 - 2024]:</strong> [smkn 7 kota bekasi], [teknik elektro]</li>
             
-            />
-            <h1>Muhammad Naufal Ardhi Zaidan</h1>
-            <p>Marketing & Programmer Profesional</p>
-        </header>
+            <!-- Tambahkan lebih banyak jika diperlukan -->
+        </ul>
+    </section>
 
-        <section id="biodata">
-            <h2>Biodata</h2>
-            <ul>
-                <li><strong>Nama Lengkap:</strong> Muhammad Naufal Ardhi Zaidan</li>
-                <li><strong>Tanggal Lahir:</strong> 07 agustus 2006</li>
-                <li><strong>Tempat Lahir:</strong> bekasi, Indonesia</li>
-                <li><strong>Alamat Rumah:</strong> Jl. Swadaya 1 no 16 b kec pondok gede kel jati makmur, Indonesia</li>
-                <li><strong>Email:</strong> m.naufalardhiz@gmail.com</li>
-                <li><strong>Nomor Telepon:</strong> +62 8972317715</li>
-                <li><strong>Profesi:</strong> Marketing & Programmer</li>
-                <li>
-                    <strong>Deskripsi:</strong> Saya adalah seorang profesional di bidang marketing digital dan pengembangan perangkat lunak. Dengan pengalaman lebih dari 5 tahun, saya ahli dalam strategi pemasaran online, analisis data, dan pemrograman web/mobile. Saya berkomitmen untuk menciptakan solusi inovatif yang membantu bisnis berkembang.
-                </li>
-            </ul>
-        </section>
-
-        <section id="pendidikan">
-            <h2>Pendidikan</h2>
-            <ul>
-                <li><strong>Sarjana Teknik elektro</strong> - smkn 7 kota bekasi (2021-2024)</li>
-                
-            <ul>
-        
-
-        <section id="keahlian">
-            <h2>Keahlian</h2>
-            <div class="skills">
-                <span class="skill">HTML/CSS/JavaScript</span>
-                <span class="skill">pemasaran</span>
-                <span class="skill">trading</span>
-                <span class="skill">ms word</span>
-                <span class="skill">canva</span>
-                <span class="skill">Social Media Marketing</span>
-                <span class="skill">Data Analysis</span>
-                <span class="skill">cx omron</span>
-                <span class="skill">nb designer</span>
-            </div>
-        </section>
-
-        <section id="kontak" class="contact">
-            <h2>Kontak</h2>
-            <p>Hubungi saya untuk kolaborasi atau pertanyaan:</p>
-            <a href="https://wa.me/628972317715" target="_blank" rel="noopener noreferrer">
-                Kirim Pesan WhatsApp
-            </a>
-            <a href="mnaufalardhiz@gmail.com">
-                Kirim Email
-            </a>
-        </section>
-    </div>
+    <section id="keahlian">
+        <h2>Keahlian</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>kerja sama team</li>
+            <li>komunikasi</li>
+            <li>transaksi kasir</li>
+            <li>berpikir kritis</li>
+            <!-- Tambahkan keahlian Anda -->
+        </ul>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Muhammad Naufal Ardhi Zaidan. Semua hak dilindungi.</p>
+        <p>&copy; 2023 [muhammad naufal ardhi zaidan]. Semua hak dilindungi.</p>
     </footer>
+
+    <script>
+        // Script sederhana untuk animasi scroll (opsional)
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                } else {
+                    section.style.opacity = '0';
+                    section.style.transform = 'translateY(20px)';
+                }
+            });
+        });
+        // Inisialisasi opacity awal
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.5s, transform 0.5s';
+        });
+    </script>
 </body>
 </html>
