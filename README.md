@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Kerja - [Nama Anda]</title>
+    <title>Portofolio Kerja - [muhammad naufal ardhi zaidan]</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,18 +73,20 @@
 <body>
     <header>
         <h1>Portofolio Kerja</h1>
-        <p><strong>Nama:</strong> [Masukkan Nama Anda]</p>
-        <p><strong>Profesi:</strong> [Masukkan Profesi Anda, contoh: Mekanik Listrik & Store Crew]</p>
+        <p><strong>Nama:</strong> [Muhammad naufal ardhi zaidan ]</p>
+        <p><strong>Profesi:</strong> [digital pemasaran]</p>
     </header>
 
     <div class="container">
         <section id="kontak">
             <h2>Kontak yang Dapat Dihubungi</h2>
             <div class="contact">
-                <p><strong>Nomor Telepon:</strong> [Masukkan Nomor Telepon Anda, contoh: +62 812-3456-7890]</p>
-                <p><strong>Email:</strong> <a href="mailto:[Masukkan Email Anda]">[Masukkan Email Anda, contoh: nama@email.com]</a></p>
-                <p><strong>LinkedIn:</strong> <a href="[Masukkan Link LinkedIn Anda]" target="_blank">[Masukkan Link LinkedIn Anda]</a></p>
-                <p><strong>Alamat:</strong> [Masukkan Alamat Anda, contoh: Jakarta, Indonesia]</p>
+                <p><strong>Nomor Telepon:</strong> [08972317715]</p>
+                <p><strong>Email:</strong> <a href="mailto:[m.naufalardhiz@gmail.com]">[m.naufalardhiz@gmail.com]</a></p>
+                <p><strong>LinkedIn:</strong> <a href="[Masukkan Link LinkedIn Anda]" target="_blank">[www.linkedin.com/in/
+muhammad-n-8bb292309
+]</a></p>
+                <p><strong>Alamat:</strong> [jl swadaya 1 no 16 b kec pondok gede kel jatimakmur kota bekasi jawa barat]</p>
             </div>
         </section>
 
@@ -99,19 +102,19 @@
         <section id="pengalaman-kerja">
             <h2>Pengalaman Kerja</h2>
             
-            <h3>PT Gagana Megah Utam - Bagian Mekanik Listrik</h3>
-            <p><strong>Periode:</strong> [Masukkan Periode Kerja, contoh: Januari 2020 - Desember 2022]</p>
+            <h3>PT Gagana Megah Utama - Bagian Mekanik Listrik</h3>
+            <p><strong>Periode:</strong> [07 mei 2023- 16 nov 2023]</p>
             <p><strong>Deskripsi Kerja:</strong></p>
             <ul>
                 <li>Melakukan inspeksi rutin dan perbaikan komponen elektrikal pada mesin pabrik untuk mencegah kerusakan.</li>
                 <li>Troubleshooting masalah elektrikal kompleks, termasuk penggantian kabel, motor, dan panel kontrol.</li>
                 <li>Instalasi sistem elektrik baru sesuai spesifikasi teknis dan standar keselamatan kerja.</li>
                 <li>Berkolaborasi dengan tim produksi untuk mengoptimalkan efisiensi mesin dan mengurangi waktu henti produksi.</li>
-                <li>Melatih junior staff dalam prosedur pemeliharaan elektrikal.</li>
+                <li>Membuat laporan kerja harian</li>
             </ul>
             
             <h3>PT Sumber Alfaria Trijaya Tbk - Bagian Store Crew</h3>
-            <p><strong>Periode:</strong> [Masukkan Periode Kerja, contoh: Maret 2023 - Sekarang]</p>
+            <p><strong>Periode:</strong> [16 okt 2024 - 16 okt 2025]</p>
             <p><strong>Deskripsi Kerja:</strong></p>
             <ul>
                 <li>Menyambut dan melayani pelanggan dengan ramah, menjawab pertanyaan, dan memastikan kepuasan pembelian.</li>
@@ -124,13 +127,13 @@
 
         <section id="pendidikan">
             <h2>Pendidikan (Opsional)</h2>
-            <p><strong>[Masukkan Tingkat Pendidikan, contoh: SMK Teknik Elektro]</strong> - [Masukkan Institusi, contoh: SMK Negeri 1 Jakarta] - [Tahun Lulus, contoh: 2019]</p>
-            <p>Deskripsi: [Tambahkan deskripsi singkat tentang pendidikan Anda, contoh: Belajar dasar-dasar elektrikal dan praktik lapangan.]</p>
+            <p><strong>{SMK Teknik Elektro]</strong> - [smkn 7 kota bekasi] - [mei 2024]</p>
+            <p>Deskripsi: [melakukan perakitan lampu tl 36/40 wat dan belajar tentang panel surya dan plc dan motor ]</p>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2023 [Nama Anda]. Terima kasih telah mengunjungi portofolio saya. Hubungi saya untuk peluang kerja atau kolaborasi!</p>
+        <p>&copy; 2023 [muhammad naufal ardhi zaidan]. Terima kasih telah mengunjungi portofolio saya. Hubungi saya untuk peluang kerja atau kolaborasi!</p>
     </footer>
 </body>
 </html>
